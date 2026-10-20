@@ -1,24 +1,9 @@
 # PROBABLE FACTORS:
 
 ## Team Members:
-- Walter Jiang, 261085955
-- Leonardo Falvo, 261097421
-- Zhengcheng Geng, 261103319
-
-### Walter Jiang:
-- Made factors and GCD main functions
-- Made slideshow and video
-- Helped debug Miller-Rabin and Pollards Rho functions
-
-### Leonardo Falvo:
-- Made Pollard's rho function
-- Benchmarked for different values of x using core_bench
-- Encoded integers with the Zarith library to allow for very large integers
-- Wrote script for video
-
-### Zhengcheng Geng:
-- Made Miller-Rabin function
-- Made problem description pdf
+- Walter Jiang
+- Leonardo Falvo
+- Zhengcheng Geng
 
 ## Project Details
 
@@ -27,8 +12,6 @@ The main file for this project is `factor.ml`. `factor.ml` uses three libraries 
 We tried to not use any libraries for this project, simply making use of the `Int64` type built in to OCaml, but because our project explicitly addresses very large integers we had to use Zarith. Core and core_bench are how we generated the graphs of time at given values.
 
 ### Installation and Setup
-
-I assume the grader of this assignment will be able to install these packages and then run the program, but if a refresher is needed:
 
 1. **Install OCaml**: Follow the guide at [ocaml.org/docs/up-and-running](https://ocaml.org/docs/up-and-running). Verify installation with `ocaml --version`.
 2. **Install OPAM**: Follow instructions at [opam.ocaml.org/doc/Install.html](https://opam.ocaml.org/doc/Install.html). Initialize with `opam init && eval $(opam env)`.
